@@ -1,0 +1,21 @@
+Lo que buscamos aca es crear un sitio web responsive. Como esto es un curso, no se aconseja dejar para el ultimo
+la configuracion de cada elemento para que sea responsive. Lo que se recomienda es ir ajustando los elementos
+html a medida que se vayan creando, independiente del enfoque que se utilice.
+En este caso como el sitio ya esta terminado, lo que se hara es inspeccionar cada elemento, usando el navegador,
+y rediseñar con media querie dicho elemento para que se ajuste a cada pantalla segun nosotros queramos.
+El navegador nos dara la ubicacion donde esta el elemento seleccionado, y ahi nos vamos a ubicar para su edicion.
+
+Usaremos el enfoque firt mobile
+
+Tareas:
+    1-Cambiar el tamaño de los heading h1, h2, y h3.
+    2-Ajustamos la barra navegación. En dispositivos mas pequeños la navegación va de arriba hacia abajo.
+    Tambien ajustamos la imagen que se ve muy grande en dispositivos pequeños.
+    3-Ajustamos las categorias. En dispositivos pequeños que se muestren las categorias de arriba hacia abajo. Adicionalmente agregamos un nuevo selector categoria img{} con un width del 100%. Lo que hace es estirar la imagen hasta cubrir todo el espacio disponible. Tambien agregamos una separacion abajo en dispositivos pequeños, pero se lo eliminamos en grande.
+    4-Sobre nosotros. Se ajusta la imagen, ya que al reducir el zoom se puede ver un gap entre la imagen y el fondo azul. Por lo que se ajusta la imagen segun la resolucion de pantalla modificando el tamaño del background.
+    Aqui realizamos un ajuste importante, dado que cambiamos el display a grid, y lo que hacemos es alternar el grid-template de columns a rows, dependiendo si estamos en escritorio o dispositivo pequeño, respectivamente. Se ajusta la direccion del gradiente del background-image, y la posicion.
+    tambien se modifica el texto, agregando padding y reduciendo el global.
+    5-Listado de producto. Aqui es imposible lograr que los productos se vean uno al lado del otro en dispositivos pequeños. Por que se recurre a poner todo el codigo en un media querie.
+    6-Footer. Muy similar al anterior.
+
+    Hacemos los  mismo para el resto de la paginas.
